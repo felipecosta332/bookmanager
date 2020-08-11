@@ -13,7 +13,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static String SQL_CREATE = String.format(
             "CREATE TABLE %s (%s INTEGER PRIMARY KEY AUTOINCREMENT, " +
-            "%s TEXT NOT NULL, %s TEXT NOT NULL, %s TEXT NOT NULL, %s TEXT NOT NULL, %s INTEGER NOT NULL)",
+            "%s TEXT NOT NULL, %s TEXT NOT NULL, %s TEXT NOT NULL, %s INTEGER NOT NULL)",
             LivroContract.TABLE_NAME,
             LivroContract.Columns._ID,
             LivroContract.Columns.titulo,
